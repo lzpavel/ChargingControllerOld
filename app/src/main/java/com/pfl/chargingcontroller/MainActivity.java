@@ -45,22 +45,13 @@ public class MainActivity extends AppCompatActivity {
     Context contextApp;
     Intent intentService;
 
-    //MainReceiver mainReceiver;
     ChargingService chargingService;
 
-    //private boolean isRunningService = false;
     private boolean isBound = false;
     private boolean isSwitchFix = false;
 
     private StopCharging stopCharging;
     private SettingValue settingValue;
-    //private List<StopChargingItem> listStopCharging = new ArrayList<>();
-    //private RecyclerView.Adapter adapterStopCharging;
-    //private List<SettingValueItem> itemsSettingValue = new ArrayList<>();
-    //private RecyclerView.Adapter adapterSettingValue;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,11 +112,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-//                RootSession r = new RootSession();
-//                r.writeValueForce("/sys/class/power_supply/main/current_max", curr + "000");
-//                r.close();
-
         buttonResetBatteryStats.setOnClickListener(view -> {
             try {
                 RootSession.resetBatteryStats();
@@ -138,23 +124,9 @@ public class MainActivity extends AppCompatActivity {
         });
         buttonEnableCharging.setOnClickListener(view -> {
             stopCharging.enableCharging();
-            /*try {
-                RootSession.enableCharging();
-                Toast.makeText(this, "Success enable charging", Toast.LENGTH_SHORT).show();
-            } catch (Exception e) {
-                Toast.makeText(this, "Error enable charging", Toast.LENGTH_SHORT).show();
-                e.printStackTrace();
-            }*/
         });
         buttonDisableCharging.setOnClickListener(view -> {
             stopCharging.disableCharging();
-            /*try {
-                RootSession.disableCharging();
-                Toast.makeText(this, "Success disable charging", Toast.LENGTH_SHORT).show();
-            } catch (Exception e) {
-                Toast.makeText(this, "Error disable charging", Toast.LENGTH_SHORT).show();
-                e.printStackTrace();
-            }*/
         });
         buttonTestActivity.setOnClickListener(view -> {
             startActivity(new Intent(this, TestActivity.class));
@@ -230,10 +202,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         Log.d(LOG_TAG, "onStart");
         bindService(new Intent(this, ChargingService.class), connection, Context.BIND_AUTO_CREATE);
-        /*mainReceiver = new MainReceiver();
-        registerBroadcastReceiver();
-        sendBroadcast(new Intent("com.pfl.chargingcontroller.CHARGING_SERVICE_RECEIVER"));*/
-        //switchCapacityLimit.setChecked(chargingService.isRunning);
     }
 
     @Override
