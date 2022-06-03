@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextStopChargingDialogPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Path"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextStopChargingDialogOnValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="On value"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextStopChargingDialogOffValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Off value"
+        android:inputType="textPersonName" />
+</LinearLayout>

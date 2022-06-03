@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemSettingValueItemRead"
+        android:title="Read Value" />
+    <item
+        android:id="@+id/itemSettingValueItemEdit"
+        android:title="Edit" />
+    <item
+        android:id="@+id/itemSettingValueItemStoreDefault"
+        android:title="Store Default" />
+    <item
+        android:id="@+id/itemSettingValueItemRestoreDefault"
+        android:title="Restore Default" />
+    <item
+        android:id="@+id/itemSettingValueItemDelete"
+        android:title="Delete" />
+
+</menu>

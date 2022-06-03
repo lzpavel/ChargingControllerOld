@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3545" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3545" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/activity_test.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/capacity_limit_view.xml" value="0.3963541666666667" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/current_limit_view.xml" value="0.3963541666666667" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/fragment_blank.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/limiter.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/limiter_settings.xml" value="0.17592592592592593" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/setting_value_dialog.xml" value="0.39895833333333336" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/setting_value_edit.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/setting_value_item.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/stop_charging_dialog.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/stop_charging_item.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/layout/text.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/menu_main.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/setting_value_edit_menu.xml" value="0.3282051282051282" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/setting_value_item_menu.xml" value="0.3282051282051282" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/setting_value_main_menu.xml" value="0.3282051282051282" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/stop_charging_item_menu.xml" value="0.32735042735042735" />
+        <entry key="..\:/Projects/AndroidStudio/ChargingController/app/src/main/res/menu/stop_charging_main_menu.xml" value="0.32735042735042735" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
